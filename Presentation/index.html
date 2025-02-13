@@ -8,7 +8,6 @@
       td, th {
        border: 2px solid black;
        text-align: center;
-       padding: 10px;
       }
       body {
        background-image: url('./fon.jpg');
@@ -21,28 +20,30 @@
 
 <body>
     <div>
-        <h2>Top tracks 2025</h2>
+      <h2>Top tracks 2025</h2>
         <table>
           <tr>
               <th>Name</th>
               <th>Audio</th>
               <th>Video</th>
+              <th>iframe</th>
           </tr>
           <tr>
-              <td>
-              Track1
-              </td>
+              <td>Track1</td>
               <td>                
                 <audio controls>
                 <source src="Music1.mp3" type="audio/mp3">
                 Ваш браузер не підтримує елемент audio.
                 </audio> 
-            </td>
+              </td>
               <td>
                 <video width="320" height="240" controls>
                 <source src="Video1.mp4" type="video/mp4">
                 Ваш браузер не підтримує елемент video.
                 </video>                
+              </td>
+              <td>
+                <iframe src="iframe.html" height="240" width="805" name="iframe1" title="iframe 3"></iframe>                 
               </td>
           </tr>
           <tr>
@@ -59,6 +60,9 @@
                 Ваш браузер не підтримує елемент video.
                 </video>
               </td>
+              <td>
+                <iframe src="https://www.youtube.com/embed/ukzFI9rgwfU" height="200" width="300"  title="iframe 2"></iframe>               
+              </td>
           </tr>
           <tr>
               <td>Track3</td>
@@ -73,6 +77,10 @@
                 <source src="Video3.mp4" type="video/mp4">
                 Ваш браузер не підтримує елемент video.
                 </video>
+              </td>
+              <td>
+                <iframe src="img.png" height="240" width="805" name="iframe3" title="iframe 3"></iframe>    
+                <p><a href="iframe.html" target="iframe3">iframe.html</a></p>                 
               </td>
           </tr>
         </table>    
