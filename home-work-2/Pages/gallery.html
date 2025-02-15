@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>        
+        menu { 
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+            background-color: silver;
+        }
+        menu a {
+            margin: 0 25px;
+            text-decoration: none;
+            color: black;
+        }
+        menu a:hover {
+            background-color: blue;
+        }
+        table {
+            font-family: arial;  
+        }
+        td, th {
+            text-align: center;
+        }
+        body {
+            background-image: url('../Images/fon4.png');
+        }
+        .pictures{
+            width:50%;
+        }
+    </style>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Gallery</title>
+</head>
+
+
+<body>
+    <h2 style="text-align:center"> Навігація по сторінкам: </h2>
+    <menu>
+        <li>
+            <a href="../index.html"> Home Page </a>
+        </li>
+        <li>    
+            <a href="./contacts.html"> Contacts </a>
+        </li>
+        <li>
+            <a href="./gallery.html"> Gallery </a>
+        </li>
+        <li>    
+            <a href="./video&audio.html"> Video&Audio </a>
+        </li> 
+        <li>    
+            <a href="./anchor.html">Anchor</a>
+        </li>     
+    </menu>
+    <div>
+          <h2 style="text-align: center; color:red;">Клікай на картинку</h2>       
+          <table style="width:100%; color: silver;">
+            <tr>
+                <td>                
+                    <a href="../Images/clouds.jpg" target="_blank">
+                        <img class="pictures" src="../Images/clouds.jpg" alt="Clouds">
+                    </a>
+                    <p><strong>Облака</strong></p>   
+                </td>
+                <td>
+                    <a href="../Images/dog.jpg" target="_blank">
+                        <img class="pictures" src="../Images/dog.jpg" alt="Dog">
+                    </a>
+                    <p><strong>Пес</strong></p>                  
+                </td>
+                <td>
+                    <a href="../Images/lighthouse.jpg" target="_blank">
+                        <img class="pictures" src="../Images/lighthouse.jpg" alt="Lighthouse">
+                    </a>
+                    <p><strong>Маяк</strong></p>                  
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="../Images/london.jpg" target="_blank">
+                        <img class="pictures" src="../Images/london.jpg" alt="London">
+                    </a>
+                    <p><strong>Лондон</strong></p>   
+                </td>
+                <td>
+                    <a href="../Images/mountain.jpg" target="_blank">
+                        <img class="pictures" src="../Images/mountain.jpg" alt="Mountain"> 
+                    </a>
+                    <p><strong>Гори</strong></p> 
+                </td>
+                <td>
+                    <a href="../Images/road.jpg" target="_blank">
+                        <img class="pictures" src="../Images/road.jpg" alt="Road"> 
+                    </a>
+                    <p><strong>Дорога</strong></p>               
+                </td>
+            </tr>
+        </table>
+    </div>   
+</body>
