@@ -1,3 +1,5 @@
+/*--------------------------menu for all html------------------------------*/
+
 .menuName{
     text-align:center
 }
@@ -19,10 +21,14 @@
     background-color: blue;
 }
 
+/*--------------------------index.html------------------------------*/
+
 .bodyIndex {
     background-image: url('./Images/fon2.jpg');
     background-size: 100%
 }
+
+/*--------------------------anchor.html------------------------------*/
 
 .bodyAnchor {
     background-image: url('./Images/fon1.jpg');
@@ -32,6 +38,8 @@
 .ulAnchor {
     list-style-type:disc;
 }
+
+/*--------------------------gallery.html------------------------------*/
 
 .bodyGallery {
     background-image: url('./Images/fon4.png');
@@ -57,6 +65,8 @@
     color:red;
 }
 
+/*--------------------------registration.html------------------------------*/
+
 .bodyRegistration {
     background-image: url('./Images/fon3.jpg');
     background-size: 100%
@@ -65,6 +75,8 @@
 .formRegistration { 
     background-color: silver;
 }
+
+/*--------------------------video&audio.html------------------------------*/
 
 .bodyVideoAudio {
     background-image: url('./Images/fon.jpg');
