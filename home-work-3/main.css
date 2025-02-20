@@ -1,0 +1,83 @@
+.menuName{
+    text-align:center
+}
+
+.menuBtn { 
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: silver;
+}
+
+.menuBtn a {
+    margin: 0 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.menuBtn a:hover {
+    background-color: blue;
+}
+
+.bodyIndex {
+    background-image: url('./Images/fon2.jpg');
+    background-size: 100%
+}
+
+.bodyAnchor {
+    background-image: url('./Images/fon1.jpg');
+    background-size: 100%
+}
+
+.ulAnchor {
+    list-style-type:disc;
+}
+
+.bodyGallery {
+    background-image: url('./Images/fon4.png');
+    background-size: 100%
+}
+
+.picturesGallery{
+    width:50%;
+}
+
+.tableGallery {
+    width:100%; 
+    color: silver;
+    font-family: arial;  
+}
+
+.tableGallery td, .tableGallery th {
+    text-align: center;
+}
+
+.h2Gallery {
+    text-align: center; 
+    color:red;
+}
+
+.bodyRegistration {
+    background-image: url('./Images/fon3.jpg');
+    background-size: 100%
+}
+
+.formRegistration { 
+    background-color: silver;
+}
+
+.bodyVideoAudio {
+    background-image: url('./Images/fon.jpg');
+    background-size: 100%
+}
+
+.tableVideoAudio {
+    font-family: arial;
+    width:100%  
+}
+
+.tableVideoAudio td, .tableVideoAudio th {
+    border: 2px solid black;
+    text-align: center; 
+}
+
