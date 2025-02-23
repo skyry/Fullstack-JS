@@ -1,0 +1,19 @@
+div > p {
+    background-color: yellow;
+    color: black;
+}
+
+.divstyle p {
+    background-color: red;
+    color: blue;
+}
+
+#divstyleid p {
+    background-color: green;
+    color: white;
+}
+
+div a[href*="google"] {
+    background-color: orange;
+    color: black;
+}
