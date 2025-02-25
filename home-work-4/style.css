@@ -63,7 +63,7 @@ div > h4 {
 }
 
 /*------------------Комбінований селектор----------------------*/
-.styletagem em {
+div.styletagem em {
     background-color: rgba(243, 8, 172, 0.945);
     color: white;
 }
