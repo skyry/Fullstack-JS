@@ -1,4 +1,4 @@
-
+/*-----------------Комбінований селектор для заголовку сторінки-----------*/ 
 div .styleh1 {
     background-color: rgb(156, 9, 241);
     color: rgb(16, 238, 201);
@@ -6,31 +6,36 @@ div .styleh1 {
     justify-content: center;
 }
 
+/*-----------------Селектор тегу-------------------*/
 p {
     background-color: goldenrod;
     color: black;
 }
 
+/*-----------------Селектор класу------------------*/
 .divstyle {
     background-color: red;
     color: blue;
 }
 
+/*------------------Селектор ID----------------------*/
 #divstyleid {
     background-color: green;
     color: white;
 }
 
+/*------------------Селектор атрібуту-----------------*/
 div a[href*="google"] {
     background-color: orange;
     color: black;
 }
 
+/*------------------Вкладений селектор-----------------*/
 .divstylein p {
     background-color: blueviolet;
     color: white;
 }
-
+/*------------------Дочерні селекори-------------------*/
 div > h3 {
     background-color: yellow;
     color: black;
@@ -46,6 +51,7 @@ div > h4 {
     color: red;
 }
 
+/*------------------Послідовні селектори----------------------*/
 .divstysub h4 + p {
     background-color: grey;
     color: white;
@@ -56,6 +62,7 @@ div > h4 {
     color: black;
 }
 
+/*------------------Комбінований селектор----------------------*/
 .styletagem em {
     background-color: rgba(243, 8, 172, 0.945);
     color: white;
