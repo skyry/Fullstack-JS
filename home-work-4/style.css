@@ -1,14 +1,22 @@
-div > p {
-    background-color: yellow;
+
+div .styleh1 {
+    background-color: rgb(156, 9, 241);
+    color: rgb(16, 238, 201);
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    background-color: goldenrod;
     color: black;
 }
 
-.divstyle p {
+.divstyle {
     background-color: red;
     color: blue;
 }
 
-#divstyleid p {
+#divstyleid {
     background-color: green;
     color: white;
 }
@@ -16,4 +24,39 @@ div > p {
 div a[href*="google"] {
     background-color: orange;
     color: black;
+}
+
+.divstylein p {
+    background-color: blueviolet;
+    color: white;
+}
+
+div > h3 {
+    background-color: yellow;
+    color: black;
+}
+
+section > p {
+    background-color: blue;
+    color: silver;
+}
+
+div > h4 {
+    background-color: powderblue;
+    color: red;
+}
+
+.divstysub h4 + p {
+    background-color: grey;
+    color: white;
+}
+
+.divstysubnew h4 ~ p {
+    background-color: rgb(208, 211, 12);
+    color: black;
+}
+
+.styletagem em {
+    background-color: rgba(243, 8, 172, 0.945);
+    color: white;
 }
