@@ -1,0 +1,43 @@
+
+
+/*--------------------------menu for all html------------------------------*/
+.menuName{
+    text-align:center
+}
+
+.menuBtn { 
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: silver;
+}
+
+.menuBtn a {
+    margin: 0 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.menuBtn a:hover {
+    background-color: blue;
+}
+
+/*--------------------- Table1 --------------------*/
+.table1 {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 75%;
+}
+
+td {
+    width: 33%;
+    height: 50px;
+    text-align: center;
+    border: 1px solid black;
+  }
+
+.table1h-200p {
+    height: 200px;
+}
+
+/*--------------------- Table2 --------------------*/
